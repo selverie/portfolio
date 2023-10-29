@@ -1,0 +1,26 @@
+{
+  "name": "my-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.0.7",
+    "next": "13.0.7",
+    "nprogress": "^0.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "react-magic": "^0.2.4",
+    "sass": "^1.61.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.8",
+    "@types/react": "18.2.31",
+    "typescript": "5.2.2"
+  }
+}
