@@ -13,13 +13,22 @@ function Contact() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper w-full">
-            <h1 className="text-title">Contact</h1>
-            <p className="description">Ini kalo mau menghubungi</p>
+            <h1 className="text-title-contact">Contact</h1>
+            <form className="contact-form">
+              <div className="input-group">
+                <input type="text" id="name" name="name" placeholder="Name" />
+              </div>
 
-            <ul className="contact-links">
-              <li className="contact-item">Email : misal@gmail.com</li>
-              <li className="contact-item">Phone : 0123456789</li>
-            </ul>
+              <div className="input-group">
+                <input type="email" id="email" name="email" placeholder="Email" />
+              </div>
+
+              <div className="input-group">
+                <textarea id="message" name="message" placeholder="Your Message..."></textarea>
+              </div>
+
+              <button type="submit" className="send-button">Send Message</button>
+            </form>
           </div>
         </div>
       </section>

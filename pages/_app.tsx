@@ -4,7 +4,7 @@ import '../styles/app.scss';
 
 interface MyAppProps {
   Component: React.ElementType;
-  pageProps: any; 
+  pageProps: any;
 }
 
 function MyApp({ Component, pageProps }: MyAppProps) {
@@ -76,7 +76,7 @@ function MyApp({ Component, pageProps }: MyAppProps) {
       <div className="theme-toggle" onClick={toggleDarkMode}>
         {isDarkMode ? <FaSun /> : <FaMoon />}
       </div>
-      <Component {...pageProps} />
+      <Component {...pageProps} isDarkMode={isDarkMode} />
       <div
         className="circle-cursor"
         style={{

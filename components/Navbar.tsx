@@ -12,7 +12,7 @@ function Navbar({ router }: NavbarProps): ReactNode {
   const navs = [
     { text: "Home", href: "/" },
     { text: "About", href: "/about" },
-    { text: "Portfolio", href: "/portfolio" },
+    { text: "Projects", href: "/projects" },
     { text: "Contact", href: "/contact" },
   ];
 
