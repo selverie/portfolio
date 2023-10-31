@@ -26,7 +26,7 @@ body {
     align-items: center;
     justify-content: center;
     border: 2px solid var(--text-color);
-    border-radius: 20px;
+    box-shadow: 4px 2px 0px 0px var(--text-color);
 
     button {
         background: transparent;
@@ -68,6 +68,11 @@ a[href] {
 
 // navbar 
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
     margin-top: 0px;
 
     .container {
@@ -222,7 +227,7 @@ a[href] {
         .text-title {
             font-size: 30px;
             margin-top: 50px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         .description {
@@ -359,6 +364,7 @@ a[href] {
 // contact
 .text-title-contact {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .contact-form {
