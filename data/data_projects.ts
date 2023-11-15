@@ -6,7 +6,7 @@ export const Projects = [
         img: '/assets/images/projects1.png',
         demo: 'https://hima-note.netlify.app/',
         sourceCode: 'https://github.com/selverie/note.app',
-        description: 'HimaNote website yang dibuat denggan menggunakan ReactJs pada saat PPO | Himatika 2023',
+        description: 'HimaNote website was created using ReactJs during PPO | Himatika 2023',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const Projects = [
         img: '/assets/images/projects2.png',
         demo: 'https://hutao-dicoding.netlify.app/',
         sourceCode: 'https://github.com/selverie/HuTao-Dicoding',
-        description: 'Hutao-Wiki website yang dibuat dengan menggunakan Html,Css,Js pada challenge Dicoding Front-End | IDCamp 2023 ',
+        description: 'Hutao-Wiki website created using Html, CSS, Js in Front-End Dicoding challenge | IDCamp 2023 ',
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const Projects = [
         img: '/assets/images/projects3.png',
         demo: '',
         sourceCode: 'https://github.com/selverie/CRUD-Elearn',
-        description: 'CRUD Elearning website yang dibuat dengan menggunakan bahasa permograman PHP dan platform Firebase pada seleksi kepengurusan Himatika | Himatika 2023 ',
+        description: 'The CRUD Elearning website was created using the PHP programming language and the Firebase platform for selecting Himatika management | Himatika 2023 ',
     },
     {
         id: 3,
@@ -33,6 +33,6 @@ export const Projects = [
         img: '/assets/images/projects4.png',
         demo: '',
         sourceCode: 'https://github.com/selverie/HiCamp',
-        description: 'HiCamp sebuah aplikasi yang dibuat dengan menggunakan framework Flutter pada acara bootcamp, yang diselenggarakan oleh Himatika | HiCamp 2023 ',
+        description: 'HiCamp is an application created using the Flutter framework at a bootcamp event organized by Himatika | HiCamp 2023 ',
     }
 ];
