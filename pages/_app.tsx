@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 import '../styles/app.scss';
+// import Loading from '../components/Loading';
 
 interface MyAppProps {
   Component: React.ElementType;
@@ -73,6 +74,7 @@ function MyApp({ Component, pageProps }: MyAppProps) {
 
   return (
     <>
+      {/* <Loading />  */}
       <div className="theme-toggle" onClick={toggleDarkMode}>
         {isDarkMode ? <FaSun /> : <FaMoon />}
       </div>

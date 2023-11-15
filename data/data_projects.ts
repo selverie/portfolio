@@ -17,4 +17,22 @@ export const Projects = [
         sourceCode: 'https://github.com/selverie/HuTao-Dicoding',
         description: 'Hutao-Wiki website yang dibuat dengan menggunakan Html,Css,Js pada challenge Dicoding Front-End | IDCamp 2023 ',
     },
+    {
+        id: 3,
+        name: 'Elearning',
+        slug: 'elearning',
+        img: '/assets/images/projects3.png',
+        demo: '',
+        sourceCode: 'https://github.com/selverie/CRUD-Elearn',
+        description: 'CRUD Elearning website yang dibuat dengan menggunakan bahasa permograman PHP dan platform Firebase pada seleksi kepengurusan Himatika | Himatika 2023 ',
+    },
+    {
+        id: 3,
+        name: 'Hicamp',
+        slug: 'hicamp',
+        img: '/assets/images/projects4.png',
+        demo: '',
+        sourceCode: 'https://github.com/selverie/HiCamp',
+        description: 'HiCamp sebuah aplikasi yang dibuat dengan menggunakan framework Flutter pada acara bootcamp, yang diselenggarakan oleh Himatika | HiCamp 2023 ',
+    }
 ];
