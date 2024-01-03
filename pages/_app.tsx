@@ -9,7 +9,7 @@ interface MyAppProps {
 }
 
 function MyApp({ Component, pageProps }: MyAppProps) {
-  // Dark Mode
+
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
@@ -17,13 +17,11 @@ function MyApp({ Component, pageProps }: MyAppProps) {
   };
 
   useEffect(() => {
-    // Check for user preference (light/dark mode)
+
     const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    // Set the initial theme based on user preference
     setIsDarkMode(prefersDarkMode);
 
-    // Listen for changes in user preference
     const darkModeListener = (e: MediaQueryListEvent) => {
       setIsDarkMode(e.matches);
     };
@@ -37,11 +35,10 @@ function MyApp({ Component, pageProps }: MyAppProps) {
   }, []);
 
   useEffect(() => {
-    // Set the theme based on the state
+
     document.body.classList.toggle('dark-theme', isDarkMode);
   }, [isDarkMode]);
 
-  // Cursor
   const [cursorPos, setCursorPos] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
   const [cursorColor, setCursorColor] = useState<string>('white');
   const [cursorSize, setCursorSize] = useState<number>(1);
