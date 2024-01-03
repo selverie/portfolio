@@ -34,5 +34,23 @@ export const Projects = [
         demo: '',
         sourceCode: 'https://github.com/selverie/HiCamp',
         description: 'HiCamp is an application created using the Flutter framework at a bootcamp event organized by Himatika | HiCamp 2023 ',
+    },
+    {
+        id: 4,
+        name: 'Klasifikasi Gambar',
+        slug: 'klasifikasi-gambar',
+        img: '/assets/images/projects5.png',
+        demo: '',
+        sourceCode: 'https://github.com/selverie/ML-Dicoding',
+        description: 'Final project of image classification using Python programming language in Dicoding challenge | Lintasarta Cloudeka Digischool 2023 ',
+    },
+    {
+        id: 5,
+        name: 'HuTao-Bookshelf',
+        slug: 'hutao-bookshelf',
+        img: '/assets/images/projects6.png',
+        demo: 'https://hutao-bookshelf.netlify.app/',
+        sourceCode: 'https://github.com/selverie/HuTao-Bookshelf',
+        description: 'Hutao-Bookshelf website created using Html, CSS, Js in Front-End Dicoding challenge | IDCamp 2023 ',
     }
 ];
